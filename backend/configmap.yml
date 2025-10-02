@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-cm
+  namespace: prod
+data:
+  MYSQL_USER: fe-user
+  MYSQL_DATABASE: wp-db
