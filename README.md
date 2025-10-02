@@ -21,3 +21,7 @@
 > `kubectl apply -f frontend/deployment.yml` <br/>
 #### Since we are using CLusterIP service we need to forward the port to see in browser <br/>
 > `sudo -E kubectl port-forward svc/wp-svc 80:80 -n prod --address=0.0.0.0` <br/>
+#### commands <br/>
+![Screenshot of commands](https://github.com/sadiqueiqbal28/wordpress-with-kubernetes.git/images/commands.png) <br/>
+#### welcome screen <br/>
+![Screenshot of welcome screen](https://github.com/sadiqueiqbal28/wordpress-with-kubernetes.git/images/welcome-wordpress.png) <br/>
